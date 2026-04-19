@@ -1,6 +1,8 @@
 import anthropic
 import os
 
+# My first agent
+
 client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
 message = client.messages.create(
