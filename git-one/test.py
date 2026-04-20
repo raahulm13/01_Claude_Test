@@ -2,6 +2,7 @@ import anthropic
 import os
 
 # My first agent
+# run this in terminal every time -- $env:ANTHROPIC_API_KEY="your-key-here"
 
 client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
